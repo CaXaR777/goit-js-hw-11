@@ -1,4 +1,5 @@
 export { renderGallery };
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 const searchResult = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 let page = 1;
